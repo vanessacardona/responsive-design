@@ -25,7 +25,14 @@
     <section class="main-section">
         <h1 class="heading">Patagonia</h1>
         <p class="paragraph">Fusce vehicula dolor arcu, sit amet blandit dolor mollis nec. Donec viverra eleifend lacus, vitae ullamcor.</p>
-        <img class="image" src="images/horses-desktop.jpg" alt="wild horses in a desert">
+        <div class="image">
+            <picture>
+                <source media="(max-width: 760px)" srcset="images/horses-mobile.png">
+                <source media="(max-width: 1110px)" srcset="./images/horses-tablet.jpg">
+                <source media="(min-width: 1111px)" srcset="./images/horses-desktop.jpg">
+                <img src="images/horses-mobile.png" alt="wild horses in a desert">
+            </picture>    
+        </div>
     </section>
 </body>
 </html>

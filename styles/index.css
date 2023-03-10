@@ -68,25 +68,32 @@ a:active {
 .paragraph {
    font-size: 22px;
    line-height: 33px;
-   margin: 20px;
+   margin: 50px;
    min-height: 66px;
   
 }
 
-.image {
-    margin-left: 20px;
-    margin-right: 20px;
+@media screen and (max-width: 440px) {
+    .heading {
+        font-size: 36px;
+        letter-spacing: -0.8px;
+        line-height: 39.6px;
+    }  
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (min-width: 440px) and (max-width: 850px) {
 
     .heading {
         font-size: 72px;
         letter-spacing: -1.6px;
         line-height: 82.8px;
     }
-
 }
-@media screen and {
-    
+
+@media screen and (min-width: 1440px) {
+    .heading {
+        font-size: 90px;
+        line-height: 102px;
+        letter-spacing: -2px;
+    }  
 }
