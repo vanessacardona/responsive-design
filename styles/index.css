@@ -1,0 +1,22 @@
+body {
+    margin: auto;
+    font-family: 'Source Sans Pro';
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_list {
+    display: flex;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+}
+
+h1 {
+    font-family: 'Poppins';
+}
