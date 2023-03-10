@@ -55,5 +55,12 @@ a:active {
 
 h1 {
     font-family: 'Poppins', sans-serif;
+    font-size: 90px;
+    line-height: 102px;
+    letter-spacing: -2px;
 }
 
+p {
+   font-size: 22px;
+   line-height: 33px;
+}
