@@ -24,6 +24,7 @@ body {
     justify-content: space-between;
     align-items: center;
     margin: 20px;
+   
 }
 
 .nav_list {
@@ -31,6 +32,7 @@ body {
     align-items: center;
     justify-content: space-evenly;
     gap: 10px;
+    overflow: hidden;
 }
 
 li {
@@ -44,9 +46,6 @@ li {
 a {
     color: rgba(36, 38, 53, 1);
     font-family: 'Source Sans Pro', sans-serif;
-}
-
-a:link {
     text-decoration: none;
 }
 
@@ -65,6 +64,8 @@ a:active {
     margin: 20px;
 }
 
+
+
 .paragraph {
    font-size: 22px;
    line-height: 33px;
@@ -79,6 +80,13 @@ a:active {
         letter-spacing: -0.8px;
         line-height: 39.6px;
     }  
+    a {
+        display: none;
+    }
+    .icon {
+        float: right;
+        display: block;
+    }
 }
 
 @media screen and (min-width: 440px) and (max-width: 850px) {
