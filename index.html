@@ -21,7 +21,7 @@
                 <li><a href="#works">Works</a></li>
                 <li><a href="#services">Services</a></li>
                 <li><a href="#contacts">Contacts</a></li>
-                <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa-regular fa-ellipsis"></i></a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa-solid fa-bars"></i></a>
             </ul>
         </nav>
     </header>
@@ -37,11 +37,12 @@
             </picture>    
         </div>
     </section>
+    <script src="https://kit.fontawesome.com/e60b1054ac.js" crossorigin="anonymous"></script>
     <script>
     function myFunction() {
         var x = document.getElementById("nav");
         if (x.className === "nav_list") {
-          x.className += " responsive";
+          x.className += "responsive";
         } else {
           x.className = "nav_list";
         }

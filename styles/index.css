@@ -55,14 +55,16 @@ a {
 }
 
 a:hover {
-    color: white;
+    color: rgb(131, 89, 10);
     background-color: rgb(117, 202, 239);
     border-radius: 2rem;
     padding: 5px;
  
 }
 a:active {
-    color: rgb(131, 89, 10);
+    
+    background-color: rgb(117, 202, 239);
+    border-radius: 1rem;
 }
 
 .nav_list .icon {
@@ -93,28 +95,28 @@ a:active {
         letter-spacing: -0.8px;
         line-height: 39.6px;
     }  
-    .nav_list a:not(:first-child) {
+    .nav_list li {
         display: none;
     }
-    .nav_list a.icon {
+    .nav_list .icon {
         float: right;
         display: block;
     }
-}
 
-@media screen and (max-width: 440px) {
-    .nav_list.responsive {position: relative;}
     .nav_list.responsive .icon {
       position: absolute;
       right: 0;
       top: 0;
     }
-    .nav_list.responsive a {
+    .nav_list.responsive li {
+      position: relative;
       float: none;
       display: block;
       text-align: left;
     }
-  }
+
+    
+}
 
 @media screen and (min-width: 440px) and (max-width: 850px) {
 
